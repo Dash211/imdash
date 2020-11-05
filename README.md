@@ -1,1 +1,1 @@
-Esta es una página web
+Página web creada por Manuel Pinto 
