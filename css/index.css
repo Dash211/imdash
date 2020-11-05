@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+.responsive-header {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+header .header-left {
+    background: #2D2D2D;
+    height: 658px;
+    width: 60%;
+}
+
+.header-text {
+    margin:170px 50px;
+    color: #fff;
+}
+
+.header-text h1 {
+    margin-bottom: 15px;
+}
+
+.header-text a {
+    display: block;
+    padding: 20px 50px;
+    width: 30%;
+    background: #fff;
+    color: #000;
+    margin-top: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header-text a:hover {
+    text-decoration: underline;
+}
+
+.credits {
+    color: #6D6D6D;
+    margin-top: 150px;
+}
+
+.header-right {
+    background: url(../img/header-right-background.jpg);
+    width: 40%;
+}
+
+.header-right nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.header-right nav a {
+    margin: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-right nav a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    margin: 100px 165px;
+}
+
+.social-red-link {
+    padding: 25px;
+    background: #fff;
+    display:block;
+    width: 150px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 30px;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-github {
+    color: #333;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-instagram-square {
+    color: #5851db;
+}
+
+@media screen and (max-width:800px) {
+    .no-responsive-header {
+        display: none;
+    }
+
+    .responsive-header {
+        display: block;
+    }
+
+    .responsive-header .header-left {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .header-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .header-right {
+        display: none;
+    }
+
+    .responsive-header {
+        text-align: center;
+    }
+
+    .header-left {
+        height: 700px;
+    }
+
+    .header-text a {
+        margin: 35px auto;
+    }
+}
